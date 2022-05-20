@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/main.css">
+    <title>JsUserDataForm</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Validation Form</h2>
+    </div>
+    <form id="form" class="form">
+
+        <div class="form-control">
+            <label>Fullname</label>
+            <input type="text" id="fullname" name="fullname" required />
+            <small>
+                <p id="fullname_error"></p>
+            </small>
+        </div>
+
+        <div class="form-control">
+            <label>Age</label>
+            <input type="age" id="age" name="age" required />
+            <small>
+                <p id="age_error"></p>
+            
+        </div>
+
+        <div class="form-control">
+            <label>Email</label>
+            <input type="text" id="email" name="email" required />
+            <!-- <small><p id="age_error"></p></small> -->
+        </div>
+
+        <div class="form-control">
+            <label>Password</label>
+            <input type="password" id="password" name="Password" required />
+            <small>
+                <p id="password_error"></p>
+            </small>
+        </div>
+
+        <button type="submit">Submit</button>
+        
+    </form>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
